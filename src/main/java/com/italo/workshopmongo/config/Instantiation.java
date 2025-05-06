@@ -43,6 +43,9 @@ public class Instantiation implements CommandLineRunner {
 		
 		grimmjow.getPosts().add(post2);
 		userRepo.save(grimmjow);
+		
+		ulquiorra.getPosts().add(post1);
+		userRepo.save(ulquiorra);
 	}
 
 }
